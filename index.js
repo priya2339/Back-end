@@ -6,7 +6,7 @@ const routes = require('./routes/routes')
 app.use('/api', routes);
 app.use('/',(req, res)=>{
     res.send('API is working correctlly')
-}
+})
 require('dotenv').config();
 
 const mongoose = require('mongoose');
